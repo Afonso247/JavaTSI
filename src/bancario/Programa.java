@@ -255,7 +255,7 @@ public class Programa {
 			case 4:
 				String left = "";
 				ArrayList<Cliente> listaClientes = pa.getClientes();
-				System.out.println("\nListando clientes pelo CPF: ");
+				System.out.println("\nListando clientes pelo nome e CPF: ");
 				
 				// listaClientes.forEach(System.out::println);
 				for (int i=0; i<listaClientes.size(); i++){
